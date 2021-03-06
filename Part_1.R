@@ -1,7 +1,7 @@
 directory=paste(getwd(), "/", "Air", sep="")
 means = c()
 
-pollutantmean <- function(directory, pollutant, id)
+pollutantmean <- function(directory, pollutant, id=1:332)
 {
         for (i in id)
         {

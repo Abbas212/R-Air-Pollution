@@ -1,6 +1,6 @@
 directory=paste(getwd(), "/", "Air", sep="")
 results <- data.frame(id=numeric(0), nobs=numeric(0))
-complete <- function(directory, id = 1)
+complete <- function(directory, id = 1:332)
 {
         for (i in id)
         {
