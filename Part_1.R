@@ -17,6 +17,3 @@ pollutantmean <- function(directory, pollutant, id)
         }
         mean(means)
 }
-
-
-pollutantmean(directory, "nitrate", 70:72)
